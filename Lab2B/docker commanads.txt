@@ -1,0 +1,12 @@
+sudo apt update
+sudo apt install docker.io
+docker -v
+docker images
+docker ps
+docker pull <image name>
+docker run --name <NAME OF CONTAINER> -it -d <IMAGE REPOSITORY NAME>
+docker ps
+docker exec -it <CONTAINER NAME> <command (available after ps command)>
+docker stop <container ID>
+docker container rm <container ID>
+docker ps

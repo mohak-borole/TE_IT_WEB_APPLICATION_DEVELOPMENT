@@ -1,0 +1,10 @@
+sudo apt upgrade
+sudo apt install git
+git config --global
+git init
+git add .
+git status
+git commit -m "Enter Message"
+git branch -M main
+git remote add origin <link to your repository>
+git push -u origin main
